@@ -1,0 +1,52 @@
+Linux is an operating system that is accessible via the command line in the terminal window in VS Code.
+Some common command-line arguments we may use include:
+
+    cd, for changing our current directory (folder)
+    You can then use cd pset1 to change your current directory to pset1.
+
+    cp, for copying files and directories
+    ls, for listing files in a directory
+
+    mkdir, for making a directory
+    You can also create folders. You can type mkdir pset1 to create a directory called pset1
+
+    mv, for moving (renaming) files and directories
+     you could use this command to rename Hello.c (notice the uppercase H) to hello.c by typing mv Hello.c hello.c.
+
+    rm, for removing (deleting) files
+    rmdir, for removing (deleting) directories
+
+Notice that single quotes are utilized for single characters.
+Further, notice that == ensure that something is equal to something else, where a single equal sign would have a very different function in C.
+Finally, notice that || effectively means or.
+
+Operators and Types
+
+Operators refer to the mathematical operations that are supported by your compiler. In C, these mathematical operators include:
+
+    + for addition
+    - for subtraction
+    * for multiplication
+    / for division
+    % for remainder
+
+Types refer to the possible data that can be stored within a variable. For example, a char is designed to accommodate a single character like a or 2.
+Types are very important because each type has specific limits. For example, because of the limits in memory, the highest value of an int can be 4294967296.
+
+Types with which you might interact during this course include:
+
+    bool, a Boolean expression of either true or false
+    char, a single character like a or 2
+    double, a floating-point value with more digits than a float
+    float, a floating-point value, or real number with a decimal value
+    int, integers up to a certain size, or number of bits
+    long, integers with more bits, so they can count higher than an int
+    string, a string of characters
+
+Comments
+
+    Comments are fundamental parts of a computer program, where you leave explanatory remarks to yourself and others that may be collaborating with you regarding your code.
+    All code you create for this course must include robust comments.
+    Typically each comment is a few words or more, providing the reader an opportunity to understand what is happening in a specific block of code. Further, such comments serve as a reminder for you later when you need to revise your code.
+
+    Comments involve placing // into your code, followed by a comment. Modify your code as follows to integrate comments:
